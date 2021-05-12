@@ -1,0 +1,371 @@
+{
+  "format": 1,
+  "restore": {
+    "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Base.API\\Base.API.csproj": {}
+  },
+  "projects": {
+    "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Base.API\\Base.API.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Base.API\\Base.API.csproj",
+        "projectName": "Base.API",
+        "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Base.API\\Base.API.csproj",
+        "packagesPath": "C:\\Users\\Tuncay\\.nuget\\packages\\",
+        "outputPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Base.API\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tuncay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj": {
+                "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj"
+              },
+              "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Service\\Service.csproj": {
+                "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Service\\Service.csproj"
+              },
+              "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj": {
+                "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Authentication.JwtBearer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Swashbuckle.AspNetCore": {
+              "target": "Package",
+              "version": "[5.6.3, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj",
+        "projectName": "Core",
+        "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj",
+        "packagesPath": "C:\\Users\\Tuncay\\.nuget\\packages\\",
+        "outputPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tuncay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj": {
+                "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.AspNetCore.Identity.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Data\\Data.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Data\\Data.csproj",
+        "projectName": "Data",
+        "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Data\\Data.csproj",
+        "packagesPath": "C:\\Users\\Tuncay\\.nuget\\packages\\",
+        "outputPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Data\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tuncay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj": {
+                "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Core\\Core.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.SqlServer": {
+              "target": "Package",
+              "version": "[5.0.5, )"
+            },
+            "Microsoft.EntityFrameworkCore.Tools": {
+              "include": "Runtime, Build, Native, ContentFiles, Analyzers, BuildTransitive",
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[5.0.5, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Service\\Service.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Service\\Service.csproj",
+        "projectName": "Service",
+        "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Service\\Service.csproj",
+        "packagesPath": "C:\\Users\\Tuncay\\.nuget\\packages\\",
+        "outputPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Service\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tuncay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Data\\Data.csproj": {
+                "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Data\\Data.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "AutoMapper": {
+              "target": "Package",
+              "version": "[10.1.1, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj",
+        "projectName": "Shared",
+        "projectPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\Shared.csproj",
+        "packagesPath": "C:\\Users\\Tuncay\\.nuget\\packages\\",
+        "outputPath": "B:\\Dosyalar\\Projeler\\Calismalarim\\Asp.Net Core\\Base.API\\Shared\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\Tuncay\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.AspNetCore.App": {
+              "privateAssets": "none"
+            },
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.202\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

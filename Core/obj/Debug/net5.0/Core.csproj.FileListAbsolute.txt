@@ -1,0 +1,15 @@
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\bin\Debug\net5.0\Core.deps.json
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\bin\Debug\net5.0\Core.dll
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\bin\Debug\net5.0\ref\Core.dll
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\bin\Debug\net5.0\Core.pdb
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\bin\Debug\net5.0\Shared.dll
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\bin\Debug\net5.0\Shared.pdb
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.csprojAssemblyReference.cache
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.GeneratedMSBuildEditorConfig.editorconfig
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.AssemblyInfoInputs.cache
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.AssemblyInfo.cs
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.csproj.CoreCompileInputs.cache
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.csproj.CopyComplete
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.dll
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\ref\Core.dll
+B:\Dosyalar\Projeler\Calismalarim\Asp.Net Core\Base.API\Core\obj\Debug\net5.0\Core.pdb
